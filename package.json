@@ -1,0 +1,23 @@
+{
+  "name": "stripeintegrate",
+  "version": "1.0.0",
+  "description": "This is a test integration with Stripe API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "stripe"
+  ],
+  "author": "Sheddy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "stripe": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
